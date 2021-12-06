@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stack.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "binarysearchtree.h": "c",
+        "typeinfo": "c"
     }
 }
