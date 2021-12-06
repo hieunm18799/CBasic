@@ -3,6 +3,7 @@
         "stack.h": "c",
         "stdlib.h": "c",
         "binarysearchtree.h": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "stdio.h": "c"
     }
 }
