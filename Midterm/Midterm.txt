@@ -1,0 +1,36 @@
+Compile:
+    Task1:
+        Quest1: gcc -o quest1 quest1.c
+        Quest2: gcc -o quest2 quest2.c
+        Quest3: gcc -o quest3 quest3.c
+        Quest4: gcc -o quest4 quest4.c queueArray.c
+    Task2:
+        Quest1: gcc -o quest1 quest1.c
+        Quest2: gcc -o quest2 quest2.c
+Execute:    
+    Task1:
+        Quest1: .\quest1
+        Quest2: .\quest2
+        Quest3: .\quest3 <input_file.txt> <output_file.txt> (.\quest3 <book_inp.txt> <result.txt>)
+        Quest4: .\quest4
+    Task2:
+        Quest1: .\quest1
+        Quest2: .\quest2
+Input:
+    Task1:
+        Quest1: The name you want to find in the book_inp.txt (already sorted)
+        Quest2: The name you want to find in the book_inp.txt (already sorted)
+        Quest3: The name you want to find in the input_file.txt (already sorted)
+        Quest4: Standard input - Input the numbers of address then all the informations
+    Task2:
+        Quest1: Infix expression
+        Quest2: Infix expression
+Output:
+    Task1:
+        Quest1: If name found then data are outputed to file reult.txt
+        Quest2: If name found then data are outputed to file reult.txt
+        Quest3: If name found then data are outputed to output_file.txt
+        Quest4: Standard output - The 11th element will be replace
+    Task2:
+        Quest1: Postfix expression
+        Quest2: Result of expression

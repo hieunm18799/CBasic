@@ -49,7 +49,7 @@ int main(void)
     irc = BinarySearch(phonearr, name, n);
     if (irc < 0)
     {
-        printf(" No contact match the criteria!");
+        printf("Not found!");
         return -1;
     }
     // write result to outputfile
@@ -60,6 +60,7 @@ int main(void)
     }
     else
     {
+        printf("Found!");
         // printf("ok\n");
         fprintf(fpout, "%s have the email address %s and telephone number: %s ", phonearr[irc].name, phonearr[irc].email, phonearr[irc].tel);
         // printf("ok\n");
