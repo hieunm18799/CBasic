@@ -103,9 +103,9 @@ int main(void)
 
     t2 = clock();
 
-    durationinseconds = (double)(t2 - t1);
+    durationinseconds = (double)(t2 - t1) / CLOCKS_PER_SEC;
 
-    printf("Heapsort time's cost: %lf\n", durationinseconds) / CLOCKS_PER_SEC;
+    printf("Heapsort time's cost: %lf\n", durationinseconds);
 
     t1 = clock();
 
